@@ -14,6 +14,10 @@
 		D042BF4823DBC85D00365068 /* simran_764937_finalassignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D042BF4623DBC85D00365068 /* simran_764937_finalassignment.xcdatamodeld */; };
 		D042BF4A23DBC85E00365068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D042BF4923DBC85E00365068 /* Assets.xcassets */; };
 		D042BF4D23DBC85E00365068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D042BF4B23DBC85E00365068 /* LaunchScreen.storyboard */; };
+		D042BF5523DBCA1C00365068 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042BF5423DBCA1C00365068 /* product.swift */; };
+		D042BF5723DBCA5200365068 /* productnameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042BF5623DBCA5200365068 /* productnameTableViewController.swift */; };
+		D042BF5923DBCA7600365068 /* productsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042BF5823DBCA7600365068 /* productsViewController.swift */; };
+		D042BF5B23DBCA8500365068 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042BF5A23DBCA8500365068 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D042BF4923DBC85E00365068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D042BF4C23DBC85E00365068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D042BF4E23DBC85E00365068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D042BF5423DBCA1C00365068 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		D042BF5623DBCA5200365068 /* productnameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productnameTableViewController.swift; sourceTree = "<group>"; };
+		D042BF5823DBCA7600365068 /* productsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsViewController.swift; sourceTree = "<group>"; };
+		D042BF5A23DBCA8500365068 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				D042BF4B23DBC85E00365068 /* LaunchScreen.storyboard */,
 				D042BF4E23DBC85E00365068 /* Info.plist */,
 				D042BF4623DBC85D00365068 /* simran_764937_finalassignment.xcdatamodeld */,
+				D042BF5423DBCA1C00365068 /* product.swift */,
+				D042BF5623DBCA5200365068 /* productnameTableViewController.swift */,
+				D042BF5823DBCA7600365068 /* productsViewController.swift */,
+				D042BF5A23DBCA8500365068 /* detailViewController.swift */,
 			);
 			path = simran_764937_finalassignment;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D042BF4223DBC85D00365068 /* ViewController.swift in Sources */,
+				D042BF5923DBCA7600365068 /* productsViewController.swift in Sources */,
 				D042BF4823DBC85D00365068 /* simran_764937_finalassignment.xcdatamodeld in Sources */,
 				D042BF3E23DBC85D00365068 /* AppDelegate.swift in Sources */,
+				D042BF5523DBCA1C00365068 /* product.swift in Sources */,
+				D042BF5723DBCA5200365068 /* productnameTableViewController.swift in Sources */,
 				D042BF4023DBC85D00365068 /* SceneDelegate.swift in Sources */,
+				D042BF5B23DBCA8500365068 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
